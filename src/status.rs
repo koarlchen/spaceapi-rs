@@ -223,6 +223,8 @@ pub struct MembershipPlan {
 pub enum ApiVersion {
     #[serde(rename = "14")]
     V14,
+    #[serde(rename = "15")]
+    V15,
 }
 
 /// The main SpaceAPI status object.
